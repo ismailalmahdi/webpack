@@ -1,0 +1,39 @@
+{
+  "name": "webpack-basic",
+  "version": "1.0.0",
+  "description": "learning all about webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -w",
+    "start:dev": "./node_modules/.bin/webpack-dev-server"
+  },
+  "keywords": [
+    "webpack",
+    "preprocessing",
+    "react"
+  ],
+  "author": "Ismail almahdy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ismailalmahdi/webpack.git"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
